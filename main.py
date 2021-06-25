@@ -70,6 +70,4 @@ def cotacao(tamanho, ano, garagem):
     return f'preço estimado foi {preco}'
 
 #reinicia a API quando o código for alterado
-app.run(debug=True)
-
-#oi
+app.run(debug=True, host='0.0.0.0')
